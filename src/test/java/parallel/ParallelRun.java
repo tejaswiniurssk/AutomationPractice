@@ -11,6 +11,7 @@ import io.cucumber.testng.CucumberOptions;
         features = {"src/test/resources/parallel"},
         glue = {"parallel"},
         //tags = {@fillForm},
+        tags = "@login",
         plugin = {"pretty",
                 "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
                 "timeline:test-output-thread/"
