@@ -1,4 +1,4 @@
-package stepDefinitions;
+package parallel;
 
 import com.factory.DriverFactory;
 import com.pages.OrderPage;

@@ -6,7 +6,7 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features = {"src/test/resources/Features"},
+        features = {"src/test/resources/Features/LoginPage.feature"},
         glue = {"stepDefinitions", "appHooks"},
         //tags = {@fillForm},
         plugin = {"pretty",

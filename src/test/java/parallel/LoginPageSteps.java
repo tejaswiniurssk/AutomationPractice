@@ -1,4 +1,4 @@
-package stepDefinitions;
+package parallel;
 
 import com.factory.DriverFactory;
 import com.pages.LoginPage;
@@ -6,6 +6,7 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
+
 
 public class LoginPageSteps {
     private static String title;
